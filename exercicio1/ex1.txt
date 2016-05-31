@@ -1,0 +1,87 @@
+Nome do autor aqui
+Primeiro exercício para o minicurso de latex
+
+Esse é o primeiro exercício do minicurso de latex ministrado na FACOM Techweek do ano de 2016. Tente fazer uma cópia deste documento utilizando a ferramenta latex fornecida no ambiente www.sharelatex.com.
+
+Introdução
+
+Na primeira aula aprendemos muitas coisas. Primeiro conhecemos os criadores do tex e do latex. Depois vimos que essas ferramentas são boas para criar documentos complexos pois não precisamos nos preocupar com o style da page. Se lembram da Figura?? ?  Criar um documento no latex é muito fácil, basta conhecer os comandos básicos que definem as estruturas básicas.
+
+Nesse exercício vocês irão treinar essas "estruturas básicas". Lembrem-se, todo o conteúdo visto em aula pode ser encontrado no site www.github.com/luizcoro/latex-minicurso.
+
+mswordvslatex
+Gráfico representando o esforço gasto com o aumento da complexidade do documento utilizando Microsof Wor} e latex. Opção width da figura recebeu o valor 0.5\textbackslash linewidth
+
+Estruturas básicas
+
+Nessa seção iremos treinar as estruturas presentes nos \textit{slides} do arquivo \texttt{aula2.pdf}. Repare que o nome do arquivo está escrito diferente, teste os estilos de fonte vistos na aula anterior.
+
+Subseção I
+
+Esta é a Subseção ?? que está dentro da Seção ??. Os números que apareceram não foram escritos manualmente (hard coded), na verdade, usei os comandos ref e label. Faça o mesmo!
+
+SubSubseção I
+
+Esta é a primeira subsubseção da Seção ??. Em alguns casos vocês irão precisar de subsubseções.
+
+Aviso
+
+Na hierarquia das estruturas usem no máximo subsubseções. Não criem subsubsubsubsubsubsubseções pois o texto pode ficar muito ruim. Na verdade, o uso de subsubseções não é muito comum, na maioria dos casos subseções conseguem separar bem o texto.
+
+Tamanhos e estilos de fonte
+
+Nesse parágrafo as palavras estão todas com tamanhos diferentes. Tente fazer o mesmo! Para facilitar, usei somente os tamanhos: scriptsize, normalsize, large e LARGE.
+
+Nesse parágrafo existem vários estilos de fonte. Tente fazer o mesmo. Repare que as palavras estilos e mesmo parecem ter o mesmo estilo de fonte, não se engane!
+
+Tipos de lista
+
+Vamos conhecer alguns tipos de lista nessa subseção. Primeiro essa:
+
+qual
+o
+tipo
+dessa
+lista
+?
+
+Vamos para o segundo tipo.
+
+e
+esta?
+qual
+é?
+
+Agora o terceiro e último tipo.
+
+gato animal de quatro patas que mia
+cachorro outro quadrúpide porém late
+canarim da terra um tipo de passáro
+
+Perceba que podemos colocar uma lista dentro de outra.
+
+    esse item
+    tem tres
+    subitens do tipo enumerate
+só um item no meio
+    item com subitens
+    do tipo itemize
+    muda o marcador sozinho
+
+
+Figuras e tabelas
+
+Nesta seção iremos inserir algumas tabelas e figuras.
+
+Tabela de tempos em milisegundos alinhada no centro da página.
+
+Algoritmo   Tempo 1     Tempo 2
+alg1        25          100
+alg2        40          200
+
+
+logo-ufu
+Logo da UFU. Escala utilizada foi $0.5$
+
+
+Não esqueçam de utilizar os ambientes flutuantes com opção !h para inserção da Tabela ?? e da Figura ??
