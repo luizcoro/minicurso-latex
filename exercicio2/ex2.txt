@@ -1,0 +1,71 @@
+Nome do autor aqui
+Segundo exercício para o minicurso de LaTeX
+
+
+Esse é o segundo exercício do minicurso de LaTeX ministrado na FACOM Techweek do ano de 2016. Tente fazer uma cópia deste documento utilizando a ferramenta LaTeX fornecida no ambiente www.sharelatex.com.
+
+
+Introdução
+
+No último exercício treinamos os comandos de estrutura básicos, listas, tabelas e figuras. Nesse exercício vamos treinar os ambientes matemáticos textual e gráfico. Vocês se lembram dos três tipos de ambientes matématicos apresentados em aula? Também vamos aprender como obter, armazenar e apresentar citações em nosso documento.
+
+Qualquer dúvida basta me chamar e todo o conteúdo visto em aula pode ser encontrado no site www.github.com/luizcoro/latex-minicurso.
+
+As 3 equações mais famosas
+
+Nessa seção serão apresentadas as 3 equações mais famosas na minha opnião. Para seleção dessas equações foi analisado a relevância para nossa disciplina. Algumas utilizam potências, outras utilizam elementos subscritos, outras frações etc. Todas as explicações serão extraídas (talvez integralmente) do website Wikipedia.
+
+Teorema de Pitágoras
+
+Em ?? é mostrado que o teorema de Pitágoras é uma relação matemática entre os comprimentos dos lados de qualquer triângulo retângulo. Na geometria euclidiana, o teorema afirma que:
+
+Em qualquer triângulo retângulo, o quadrado do comprimento da hipotenusa é igual à soma dos quadrados dos comprimentos dos catetos.
+
+A equação do teorema de Pitágoras é dada por:
+
+???
+
+onde c representa o comprimento da hipotenusa, e a e b representam os comprimentos dos outros dois lados.
+
+Teorema fundamental do Cálculo
+
+O teorema fundamental do cálculo é a base das duas operações centrais do cálculo, diferenciação e integração, que são considerados como inversos um do outro. Isto significa que se uma função contínua é primeiramente integrada e depois diferenciada (ou vice-versa), volta-se na função original ??.
+
+Formalmente, o teorema diz o seguinte:
+
+Considere f uma função contínua de valores reais, definida em um intervalo fechado [a, b]. Se F for a função definida para x em [a, b] por
+
+???
+
+Se F é uma função tal que ??? para todo x em [a, b], então:
+
+???
+
+Distribuição normal
+
+A distribuição normal é uma das mais importantes distribuições da estatística, conhecida também como Distribuição de Gauss ou Gaussiana. Além de descrever uma série de fenômenos físicos e financeiros, possui grande uso na estatística inferencial. É inteiramente descrita por seus parâmetros de média e desvio padrão, ou seja, conhecendo-se estes valores consegue-se determinar qualquer probabilidade em uma distribuição Normal ??.
+
+A função densidade de probabilidade da distribuição normal com média ??  e a variância ?? (de forma equivalente, desvio padrão ??) é assim definida,
+
+
+???
+
+Extra -- ambiente cases
+
+O Merge Sort, ou ordenação por mistura, é um exemplo de algoritmo de ordenação do tipo dividir-para-conquistar.
+
+Sua ideia básica consiste em Dividir (o problema em vários sub-problemas e resolver esses sub-problemas através da recursividade) e Conquistar (após todos os sub-problemas terem sido resolvidos ocorre a conquista que é a união das resoluções dos sub-problemas).
+
+Os três passos úteis dos algoritmos dividir-para-conquistar, ou divide and conquer, que se aplicam ao merge sort são:
+
+Dividir: Dividir os dados em subsequências pequenas;
+Conquistar: Classificar as metades recursivamente aplicando o Merge Sort; e
+Combinar: Juntar as metades em um único conjunto já classificado.
+
+A recorrência para o custo T(n), onde n é o tamanho da entrada, é dada por:
+
+???
+???
+???
+
+Resolvendo pelo Teorema Mestre percebe-se que essa recorrência tem a solução ??.
