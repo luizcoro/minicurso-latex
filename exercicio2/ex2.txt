@@ -7,7 +7,7 @@ Esse é o segundo exercício do minicurso de LaTeX ministrado na FACOM Techweek 
 
 Introdução
 
-No último exercício treinamos os comandos de estrutura básicos, listas, tabelas e figuras. Nesse exercício vamos treinar os ambientes matemáticos textual e gráfico. Vocês se lembram dos três tipos de ambientes matématicos apresentados em aula? Também vamos aprender como obter, armazenar e apresentar citações em nosso documento.
+No último exercício treinamos os comandos de estruturas básicas, listas, tabelas e figuras. Nesse exercício vamos treinar os ambientes matemáticos textual e gráfico. Vocês se lembram dos três tipos de ambientes matématicos apresentados em aula? Também vamos aprender como obter, armazenar e apresentar citações em nosso documento.
 
 Qualquer dúvida basta me chamar e todo o conteúdo visto em aula pode ser encontrado no site www.github.com/luizcoro/latex-minicurso.
 
